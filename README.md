@@ -1,31 +1,55 @@
-# 🛒 E-Commerce Web API
+# 🛒 E-commerce Web API
 
-A scalable and secure **RESTful API** built for an e-commerce platform using **ASP.NET Web API**, designed to manage products, categories, and user data efficiently.
+A scalable backend system for managing products, orders, and authentication using ASP.NET Core Web API.
 
-## 🚀 Features
+---
 
-- Manage products and categories  
-- Handle user data and accounts  
-- Full CRUD operations (Create, Read, Update, Delete)  
-- RESTful architecture  
-- JSON data responses  
-- Clean and maintainable code structure  
-- Scalable backend for future expansion  
+## 🚀 Overview
 
-## 🛠️ Built With
+This project is a RESTful backend system designed to support an e-commerce platform.  
+It handles user authentication, product management, and order processing with a clean and maintainable architecture.
 
-- **ASP.NET Web API**  
-- **C#**  
-- **Entity Framework**  
-- **SQL Server**  
-- **LINQ**  
+---
 
-## 📂 Project Structure
+## 🛠 Tech Stack
 
-```bash
-Controllers/
-Models/
-Data/
-Repositories/
-DTOs/
-Program.cs
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+- JWT Authentication
+- LINQ
+
+---
+
+## ✨ Key Features
+
+- 🔐 Secure JWT Authentication
+- 👥 Role-Based Authorization (Admin / User)
+- 📦 Product & Category Management
+- 🛒 Order Processing System
+- ⚙️ Clean Layered Architecture
+- ⚡ Optimized Database Queries
+
+---
+
+## 🧱 Architecture
+
+- Controllers Layer
+- Service Layer
+- Repository Pattern
+- DTOs for Data Transfer
+
+---
+
+## 📡 API Highlights
+
+- `/api/auth/register`
+- `/api/auth/login`
+- `/api/products`
+- `/api/orders`
+
+---
+
+## 📌 Status
+
+✔️ Completed – Backend Ready for Integration
